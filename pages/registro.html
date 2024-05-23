@@ -4,37 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
-    <link rel="icon" href="..\src\img\pelota.jpg">
+    <link rel="icon" href="..\src\img\pelota.jpg"> 
 </head>
 <body>
     <header>
         <h1>¿Te gustaría suscribirte a nuestro sitio?</h1>
     </header>
-    <form action="" method="GET">
-        <label>
-            Nombre:
-            <input type="text" placeholder="Nombre" name="nombre" required>
-        </label>
-        <label>
-            Apellido:
-            <input type="text" placeholder="Apellido" name="apellido">
-        </label>
-        <label>
-            e-mail:
-            <input type="email" placeholder="e-mail" name="email" required>
-        </label>
+    <form id="formulario_registro">
+        <label for="nombre_usuario"> Nombre:</label>
+            <input type="text" id="nombre_usuario" placeholder="Nombre" name="nombre"><br>
+        <label for="apellido_usuario">Apellido:</label>
+            <input type="text" id="apellido_usuario" placeholder="Apellido" name="apellido"><br>
+        <label for="edad_usuario">Edad: </label>
+            <input type="number" id="edad_usuario" placeholder="Edad" name="edad"><br>
+        <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo">
+                <option>Hombre</option>
+                <option>Mujer</option>
+                <option>Otro</option>
+            </select><br>
+        <label for="email">e-mail:</label>
+            <input type="email" id="email" placeholder="e-mail" name="email"><br>
         <label>¿Qué te gustaria recibir?</label>
-        <label>
-            Newsletter
-            <input type="checkbox" name="gustos" value="newsletter">
-        </label>
-        <label>
-            Promociones
-            <input type="checkbox" name="gustos" value="promociones">
-        </label>
-        <input type="submit">
-        <input type="reset">
+        <label for="newsletter">Newsletter</label>
+            <input type="checkbox"id="newsletter" name="gustos" value="newsletter">
+        <label for="promociones">Promociones</label>
+            <input type="checkbox" id="promociones" name="gustos" value="promociones"><br>
+        <label>Dejanos tus comentarios</label><br>
+            <textarea name="comentarios" id="comentarios" placeholder="Dejanos tus comentarios" rows="10" cols="40"></textarea><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Restablcer</button>
     </form>
-
+    <script src="../js/registro.js"></script>
 </body>
 </html>
