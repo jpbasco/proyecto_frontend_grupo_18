@@ -10,31 +10,38 @@
     <header>
         <h1>¿Te gustaría suscribirte a nuestro sitio?</h1>
     </header>
-    <form id="formulario_registro">
-        <label for="nombre_usuario"> Nombre:</label>
-            <input type="text" id="nombre_usuario" placeholder="Nombre" name="nombre"><br>
-        <label for="apellido_usuario">Apellido:</label>
-            <input type="text" id="apellido_usuario" placeholder="Apellido" name="apellido"><br>
-        <label for="edad_usuario">Edad: </label>
-            <input type="number" id="edad_usuario" placeholder="Edad" name="edad"><br>
+    <form id="formularioRegistro">
+        <label id="nombre_" for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="ejempl@ejemplo.com">
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad">
+
         <label for="sexo">Sexo:</label>
-            <select id="sexo" name="sexo">
-                <option>Hombre</option>
-                <option>Mujer</option>
-                <option>Otro</option>
-            </select><br>
-        <label for="email">e-mail:</label>
-            <input type="email" id="email" placeholder="e-mail" name="email"><br>
-        <label>¿Qué te gustaria recibir?</label>
-        <label for="newsletter">Newsletter</label>
-            <input type="checkbox"id="newsletter" name="gustos" value="newsletter">
-        <label for="promociones">Promociones</label>
-            <input type="checkbox" id="promociones" name="gustos" value="promociones"><br>
-        <label>Dejanos tus comentarios</label><br>
-            <textarea name="comentarios" id="comentarios" placeholder="Dejanos tus comentarios" rows="10" cols="40"></textarea><br>
+        <select id="sexo" name="sexo">
+            <option>Hombre</option>
+            <option>Mujer</option>
+            <option>Otro</option>
+        </select><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="10 digitos">
+
+        <label>
+            <input type="checkbox" id="terminos" name="terminos">
+            Acepto los términos y condiciones
+        </label>
+
+        <label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios" placeholder="Dejanos tus comentarios" rows="10" cols="40"></textarea>
+
         <button type="submit">Enviar</button>
         <button type="reset">Restablcer</button>
     </form>
+
     <script src="../js/registro.js"></script>
 </body>
 </html>
