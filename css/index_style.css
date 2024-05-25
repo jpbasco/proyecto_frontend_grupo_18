@@ -4,8 +4,51 @@
     font-family: "Poppins", sans-serif;
     color: white;
 }
-body {
-    background: url(../src/img/fondo.jpg);
-    height: 500px;
-    font-style: italic;
+a {
+    text-decoration: none;
 }
+nav {
+    background-color: #240750;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav a{
+    padding: 0 10px;
+}
+nav a:hover{
+    background-color: white;
+    color: #240750;
+}
+main{
+    background-color: #344c64;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div {
+    background-color: #577b8d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+div a{
+    padding: 0 10px;
+}
+div a:hover{
+    background-color: white;
+    color: #577b8d;
+}
+footer{
+    background-color: #57a6a1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer a:hover{
+    background-color: white;
+    color: #57a6a1;
+}
+
+
