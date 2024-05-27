@@ -9,35 +9,22 @@ a{
 }
 nav {
     background-color: #240750;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
-.menu a{
+nav a{
     padding: 0 10px;
 }
-.menu a:hover{
+nav a:hover{
     background-color: white;
     color: #240750;
 }
 header{
     background-color: #344c64;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 main{
     background-color: #344c64;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 footer{
     background-color: #57a6a1;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
 }
 footer a:hover{
     background-color: white;

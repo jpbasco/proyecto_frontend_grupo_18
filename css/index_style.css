@@ -9,9 +9,6 @@ a {
 }
 nav {
     background-color: #240750;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 .menu a{
     padding: 0 10px;
@@ -22,17 +19,11 @@ nav {
 }
 main{
     background-color: #344c64;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
-div {
-    background-color: #577b8d;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.social {
+    background-color: #577b8d;;
 }
-div a{
+.social a{
     padding: 0 10px;
 }
 div a:hover{
@@ -41,10 +32,6 @@ div a:hover{
 }
 footer{
     background-color: #57a6a1;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
 }
 footer a:hover{
     background-color: white;
