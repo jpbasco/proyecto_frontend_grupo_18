@@ -8,26 +8,32 @@ a{
     text-decoration: none;
 }
 nav {
-    background-color: #240750;
+    background-color: #1e0342;
 
 }
-.menu a{
+nav a{
     padding: 0 10px;
 }
-.menu a:hover{
+nav a:hover{
     background-color: white;
-    color: #240750;
+    color: #1e0342;
 }
 header{
-    background-color: #344c64;
+    background-color: #0e46a3;
 }
 main{
-    background-color: #344c64;
+    background-color: #0e46a3;
 }
 footer{
-    background-color: #57a6a1;
+    background-color: #e1f7f5;
+}
+footer a{
+    color: #1e0342;
+}
+p{
+    color: #1e0342;
 }
 footer a:hover{
     background-color: white;
-    color: #57a6a1;
+    color: #1e0342;
 }
