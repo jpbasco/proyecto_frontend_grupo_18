@@ -18,10 +18,8 @@
         <a href="partidos.html">Próximos partidos</a>
         <a href="clasificaciones.html">Clasificaciones</a>
     </nav>
-    <header>
-        <h1>¿Te gustaría suscribirte a nuestro sitio?</h1>
-    </header>
     <main>
+        <h2>¿Te gustaría suscribirte a nuestro sitio?</h2>
         <form id="formularioRegistro">
             <label id="nombre_" for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" placeholder="Nombre">
@@ -37,18 +35,18 @@
                 <option>Hombre</option>
                 <option>Mujer</option>
                 <option>Otro</option>
-            </select><br>
+            </select>
 
             <label for="telefono">Teléfono:</label>
             <input type="tel" id="telefono" name="telefono" placeholder="10 digitos">
+
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios" placeholder="Dejanos tus comentarios" rows="10" cols="40"></textarea>
 
             <label>
                 <input type="checkbox" id="terminos" name="terminos">
                 Acepto los términos y condiciones
             </label>
-
-            <label for="comentarios">Comentarios:</label>
-            <textarea id="comentarios" name="comentarios" placeholder="Dejanos tus comentarios" rows="10" cols="40"></textarea>
 
             <button type="submit">Enviar</button>
             <button type="reset">Restablcer</button>

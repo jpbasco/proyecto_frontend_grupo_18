@@ -8,7 +8,13 @@ a{
     text-decoration: none;
 }
 nav {
+    height: 10vh;
     background-color: #1e0342;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
 }
 nav a{
     padding: 0 10px;
@@ -18,16 +24,26 @@ nav a:hover{
     color: #1e0342;
 }
 header{
+    height: 10vh;
     background-color: #0e46a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 main{
     background-color: #0346a3;
+    display: flex;
+    flex-direction: column;
 }
 main p{
     color:white;
 }
 footer{
+    height: 5vh;
     background-color: #e1f7f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 footer a{
     color: #1e0342;
