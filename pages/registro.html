@@ -6,6 +6,10 @@
     <title>Registro</title>
     <link rel="icon" href="..\src\img\pelota.jpg"> 
     <link rel="stylesheet" href="../css/registro_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <nav>
@@ -17,37 +21,39 @@
     <header>
         <h1>¿Te gustaría suscribirte a nuestro sitio?</h1>
     </header>
-    <form id="formularioRegistro">
-        <label id="nombre_" for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+    <main>
+        <form id="formularioRegistro">
+            <label id="nombre_" for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre">
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="ejempl@ejemplo.com">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="ejempl@ejemplo.com">
 
-        <label for="edad">Edad:</label>
-        <input type="number" id="edad" name="edad">
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad">
 
-        <label for="sexo">Sexo:</label>
-        <select id="sexo" name="sexo">
-            <option>Hombre</option>
-            <option>Mujer</option>
-            <option>Otro</option>
-        </select><br>
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo">
+                <option>Hombre</option>
+                <option>Mujer</option>
+                <option>Otro</option>
+            </select><br>
 
-        <label for="telefono">Teléfono:</label>
-        <input type="tel" id="telefono" name="telefono" placeholder="10 digitos">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="10 digitos">
 
-        <label>
-            <input type="checkbox" id="terminos" name="terminos">
-            Acepto los términos y condiciones
-        </label>
+            <label>
+                <input type="checkbox" id="terminos" name="terminos">
+                Acepto los términos y condiciones
+            </label>
 
-        <label for="comentarios">Comentarios:</label>
-        <textarea id="comentarios" name="comentarios" placeholder="Dejanos tus comentarios" rows="10" cols="40"></textarea>
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios" placeholder="Dejanos tus comentarios" rows="10" cols="40"></textarea>
 
-        <button type="submit">Enviar</button>
-        <button type="reset">Restablcer</button>
-    </form>
+            <button type="submit">Enviar</button>
+            <button type="reset">Restablcer</button>
+        </form>
+    </main>    
     <footer>
         <p> Codo a codo 2024</p>
         <a href="terminos_y_condiciones.html">Terminos y condiciones</a>

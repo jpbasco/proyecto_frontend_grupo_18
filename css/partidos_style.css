@@ -18,11 +18,28 @@ nav a:hover{
     background-color: white;
     color: #1e0342;
 }
-header{
-    background-color: #0e46a3;
-}
 main{
     background-color: #0e46a3;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid;
+    padding: 5px;
+    background-color: #046b1f;
+}
+caption{
+    border: 1px solid;
+    padding: 5px;
+    background-color: #046b1f;
+    color: rgb(204, 204, 204);
+    font-weight: bold;
+}
+tbody td{
+    border: 1px solid;
+    padding: 5px;
+    color: rgb(204, 204, 204);
+    text-align: center;
+
 }
 footer{
     background-color: #e1f7f5;
