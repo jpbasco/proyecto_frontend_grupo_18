@@ -69,3 +69,33 @@ footer a:hover{
     background-color: white;
     color: #1e0342;
 }
+@media only screen and (max-width:430px){
+    form{
+        width: 100%;
+    }
+    h2{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px){
+    form{
+        width:100%;
+    }
+    h2{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:1279px){
+    form{
+        width: 100%;
+    }
+    h2{
+        text-align: center;
+        width: 100%;
+    }
+
+}

@@ -30,6 +30,7 @@ main{
     justify-content: center;
 }
 h1 {
+    font-size: 8vw;
     text-align: center;
     overflow: hidden; 
     border-right: .15em solid;
@@ -47,6 +48,8 @@ h1 {
     50% { border-color: transparent; }
 }
 h2{
+    font-size: 1.7vw;
+    text-align: center;
     overflow: hidden; 
     border-right: .15em solid;
     white-space: nowrap; 
@@ -92,6 +95,36 @@ p{
 footer a:hover{
     background-color: white;
     color: #1e0342;
+}
+@media only screen and (max-width:430px){
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+    nav a{
+        padding: 0 5px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+    nav a{
+        padding: 0 5px;
+    }
+}
+
+@media only screen and (max-width:1279px){
+    h1{
+        text-align: center;
+        width: 100%;
+    }
+    nav a{
+        padding: 0 5px;
+    }
+
 }
 
 
